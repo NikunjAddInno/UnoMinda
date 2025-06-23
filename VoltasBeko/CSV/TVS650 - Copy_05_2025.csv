@@ -1,0 +1,12 @@
+Date,Time,ModelName,ModelCode,Defects,Result,PoseNumber
+24-05-2025 00:00:00,24-05-2025 09:28:44,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#R34","#C13","#C15"],False,2
+24-05-2025 00:00:00,24-05-2025 09:28:44,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#D10","#C18","#R15","#R14","#TRANS","#P-C18"],False,3
+24-05-2025 00:00:00,24-05-2025 09:28:45,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#C48","#C46","#TRANS","#C34"],False,4
+24-05-2025 00:00:00,24-05-2025 09:28:45,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#C11","#C120","#C109","#C114","#P-C110","#P-C109","#P-C114","#P-C120"],False,5
+24-05-2025 00:00:00,24-05-2025 09:28:46,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#F100"],False,6
+24-05-2025 00:00:00,24-05-2025 09:28:46,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#C126","#C116","#C105","#D106","#D108","#C103","#C115","#P-C105","#P-C116","#P-C126"],False,7
+24-05-2025 00:00:00,24-05-2025 09:28:47,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#C49","#D21","#D14","#D24","#C57","#C47","#TRANS","#R66","#P-C47","#P-C57","#P-C49"],False,8
+24-05-2025 00:00:00,24-05-2025 09:28:47,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#C20","#C17","#T13","#P-C17","#P-C20"],False,9
+24-05-2025 00:00:00,24-05-2025 09:28:47,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#F1","#R11"],False,10
+24-05-2025 00:00:00,24-05-2025 09:28:49,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#R34","#C13","#C15"],False,12
+24-05-2025 00:00:00,24-05-2025 09:28:49,TVS650 - Copy,"nocodefound",["Unable to locate ROI","#D10","#C18","#R15","#R14","#TRANS","#P-C18"],False,13

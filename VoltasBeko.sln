@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoltasBeko", "VoltasBeko\VoltasBeko.csproj", "{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6} = {7FE7C588-576B-433C-AAA0-4E92886C56E6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithmLib", "VoltasBeko\algorithmLib\algorithmLib.vcxproj", "{7FE7C588-576B-433C-AAA0-4E92886C56E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Debug|x64.ActiveCfg = Debug|x64
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Debug|x64.Build.0 = Debug|x64
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Release|x64.ActiveCfg = Release|x64
+		{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}.Release|x64.Build.0 = Release|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Debug|Any CPU.Build.0 = Debug|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Debug|x64.ActiveCfg = Debug|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Debug|x64.Build.0 = Debug|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Release|Any CPU.ActiveCfg = Release|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Release|Any CPU.Build.0 = Release|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Release|x64.ActiveCfg = Release|x64
+		{7FE7C588-576B-433C-AAA0-4E92886C56E6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09F3C5FD-0863-447C-B37A-D4467C2DB016}
+	EndGlobalSection
+EndGlobal

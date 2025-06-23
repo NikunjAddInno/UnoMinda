@@ -1,0 +1,166 @@
+Date,Time,ModelName,ModelCode,Defects,Result,PoseNumber
+05-04-2025 00:00:00,05-04-2025 12:58:15,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 12:58:16,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 12:58:16,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 12:58:16,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 12:58:17,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 12:58:17,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 12:58:18,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 12:58:18,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 12:58:19,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 12:58:20,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 12:58:20,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 12:58:21,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 12:58:21,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 12:58:21,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 12:58:22,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 13:00:17,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 13:00:17,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 13:00:18,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 13:00:18,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 13:00:19,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 13:00:19,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 13:00:20,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 13:00:20,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 13:00:21,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 13:00:21,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 13:00:22,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 13:00:22,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 13:00:23,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 13:00:23,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 13:00:24,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 13:54:06,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 13:54:06,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 13:54:07,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 13:54:07,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 13:54:07,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 13:54:08,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 13:54:08,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 13:54:09,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 13:54:10,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 13:54:10,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 13:54:11,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 13:54:11,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 13:54:11,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 13:54:12,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 13:54:12,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 14:54:41,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 14:54:41,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 14:54:42,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 14:54:42,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 14:54:43,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 14:54:43,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 14:54:44,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 14:54:44,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 14:54:45,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 14:54:46,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 14:54:46,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 14:54:46,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 14:54:47,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 14:54:47,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 14:54:48,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 14:58:58,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 14:58:59,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 14:58:59,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 14:58:59,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 14:59:00,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 14:59:00,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 14:59:01,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 14:59:01,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 14:59:02,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 14:59:03,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 14:59:03,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 14:59:03,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 14:59:04,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 14:59:04,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 14:59:05,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 15:02:43,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 15:02:43,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 15:02:44,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 15:02:44,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 15:02:45,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 15:02:45,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 15:02:46,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 15:02:46,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 15:02:47,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 15:02:47,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 15:02:48,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 15:02:48,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 15:02:49,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 15:02:49,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 15:02:50,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 15:02:50,TVS350,"nocodefound",["Unable to locate ROI","#C49","#D21","#C103","#D106"],False,18
+05-04-2025 00:00:00,05-04-2025 15:03:30,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 15:03:31,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 15:03:31,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 15:03:32,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 15:03:32,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 15:03:33,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 15:03:33,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 15:03:34,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 15:03:34,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 15:03:35,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 15:03:35,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 15:03:36,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 15:03:36,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 15:03:37,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 15:03:37,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 15:03:38,TVS350,"nocodefound",["Unable to locate ROI","#C49","#D21","#C103","#D106"],False,18
+05-04-2025 00:00:00,05-04-2025 15:14:35,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 15:14:36,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 15:14:36,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 15:14:37,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 15:14:37,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 15:14:38,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 15:14:38,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 15:14:39,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 15:14:39,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 15:14:40,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 15:14:40,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 15:14:41,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 15:14:41,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 15:14:42,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 15:14:42,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 15:14:43,TVS350,"nocodefound",["Unable to locate ROI","#C49","#D21","#C103","#D106"],False,18
+05-04-2025 00:00:00,05-04-2025 15:19:03,TVS350,"20002339-000838-4425-Rev-001",["#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 15:19:03,TVS350,"20002339-000838-4425-Rev-001",["#D10","#C18","#C48","#C46"],True,3
+05-04-2025 00:00:00,05-04-2025 15:19:04,TVS350,"20002339-000838-4425-Rev-001",["#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 15:19:04,TVS350,"20002339-000838-4425-Rev-001",["#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 15:19:04,TVS350,"20002339-000838-4425-Rev-001",["#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 15:19:05,TVS350,"20002339-000838-4425-Rev-001",["#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 15:19:06,TVS350,"20002339-000838-4425-Rev-001",["#F10","#R11"],True,8
+05-04-2025 00:00:00,05-04-2025 15:19:06,TVS350,"20002339-000838-4425-Rev-001",["#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 15:19:07,TVS350,"20002339-000837-4425-Rev-001",["#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 15:19:08,TVS350,"20002339-000837-4425-Rev-001",["#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 15:19:08,TVS350,"20002339-000837-4425-Rev-001",["#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 15:19:09,TVS350,"20002339-000837-4425-Rev-001",["#F10","#C117"],True,14
+05-04-2025 00:00:00,05-04-2025 15:19:09,TVS350,"20002339-000837-4425-Rev-001",["#C103","#C115","#C126","#D106","#D108"],True,15
+05-04-2025 00:00:00,05-04-2025 15:19:10,TVS350,"20002339-000837-4425-Rev-001",["#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 15:19:11,TVS350,"20002339-000837-4425-Rev-001",["#F10"],True,17
+05-04-2025 00:00:00,05-04-2025 15:19:11,TVS350,"20002339-000837-4425-Rev-001",["Unable to locate ROI","#C49","#D21","#C103","#D106"],False,18
+05-04-2025 00:00:00,05-04-2025 15:23:55,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+05-04-2025 00:00:00,05-04-2025 15:23:55,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+05-04-2025 00:00:00,05-04-2025 15:23:55,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+05-04-2025 00:00:00,05-04-2025 15:23:56,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+05-04-2025 00:00:00,05-04-2025 15:23:56,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+05-04-2025 00:00:00,05-04-2025 15:23:57,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+05-04-2025 00:00:00,05-04-2025 15:23:57,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+05-04-2025 00:00:00,05-04-2025 15:23:58,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+05-04-2025 00:00:00,05-04-2025 15:23:59,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+05-04-2025 00:00:00,05-04-2025 15:23:59,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12
+05-04-2025 00:00:00,05-04-2025 15:24:00,TVS350,"nocodefound",["Unable to locate ROI","#TUBE","#C114","#C109","#C120","#C110","#RE100","#R162","#R165"],False,13
+05-04-2025 00:00:00,05-04-2025 15:24:00,TVS350,"nocodefound",["Unable to locate ROI","#F10","#C117"],False,14
+05-04-2025 00:00:00,05-04-2025 15:24:00,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#C126","#D106","#D108"],False,15
+05-04-2025 00:00:00,05-04-2025 15:24:01,TVS350,"nocodefound",["Unable to locate ROI","#D24","#D21","#R66","#C47","#D21","#C49","#C57","#C17"],False,16
+05-04-2025 00:00:00,05-04-2025 15:24:01,TVS350,"nocodefound",["Unable to locate ROI","#F10"],False,17
+05-04-2025 00:00:00,05-04-2025 15:24:02,TVS350,"nocodefound",["Unable to locate ROI","#C49","#D21","#C103","#D106"],False,18
+09-04-2025 00:00:00,09-04-2025 15:09:13,TVS350,"nocodefound",["Unable to locate ROI","#R34","#C15","#C13","#R15","#R14"],False,2
+09-04-2025 00:00:00,09-04-2025 15:09:13,TVS350,"nocodefound",["Unable to locate ROI","#D10","#C18","#C48","#C46"],False,3
+09-04-2025 00:00:00,09-04-2025 15:09:14,TVS350,"nocodefound",["Unable to locate ROI","#R124","#C114","#C109","#C120","#C110","#R162","#R165","#RE100"],False,4
+09-04-2025 00:00:00,09-04-2025 15:09:14,TVS350,"nocodefound",["Unable to locate ROI","#F100","#C117"],False,5
+09-04-2025 00:00:00,09-04-2025 15:09:14,TVS350,"nocodefound",["Unable to locate ROI","#C103","#C115","#D106","#D108","#C126"],False,6
+09-04-2025 00:00:00,09-04-2025 15:09:15,TVS350,"nocodefound",["Unable to locate ROI","#D14","#D24","#C57","#C17","#D21","#R66","#C49","#T13","#R6D29"],False,7
+09-04-2025 00:00:00,09-04-2025 15:09:15,TVS350,"nocodefound",["Unable to locate ROI","#F10","#R11"],False,8
+09-04-2025 00:00:00,09-04-2025 15:09:16,TVS350,"nocodefound",["Unable to locate ROI","#W12","#C105","#D108","#D106","#D121","#C103"],False,9
+09-04-2025 00:00:00,09-04-2025 15:09:17,TVS350,"nocodefound",["Unable to locate ROI","#C15","#R15","#R14","#C13","#R34"],False,11
+09-04-2025 00:00:00,09-04-2025 15:09:17,TVS350,"nocodefound",["Unable to locate ROI","#C18","#C48","#C46","#C34","#D10"],False,12

@@ -1,0 +1,63 @@
+# Ignore Visual Studio temporary files, build results, and
+# personal user settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/repositories.config
+
+# Rider
+.idea/
+
+# ReSharper
+*.DotSettings.user
+
+# Auto-generated files
+Generated_Code/
+*.g.cs
+*.g.i.cs
+
+# Logs
+*.log
+
+# OS files
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Others
+*.bak
+*.tmp
+*.cache
+
+# Ignore everything inside VoltasBeko/Models/
+VoltasBeko/Models/*
+
+# But do not ignore the folder itself
+!VoltasBeko/Models/
+
+# Local test results
+TestResults/
+*.trx
+
+# IIS Express
+/.vs/
+*.vscode/

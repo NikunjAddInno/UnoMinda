@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07F31A1F-15B0-49CF-93EC-B7E8A7A6EB4D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VoltasBeko</RootNamespace>
+    <AssemblyName>VoltasBeko</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="algorithmLib">
+      <HintPath>..\x64\Release\algorithmLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyModbus, Version=5.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyModbusTCP.5.6.0\lib\net40\EasyModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MvCameraControl.Net">
+      <HintPath>C:\Program Files (x86)\MVS\Development\DotNet\win64\MvCameraControl.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=8.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.8.0.7\lib\netstandard2.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.8.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.0\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.8.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.8.0.0\lib\net462\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppForms\AddColours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\AddColours.Designer.cs">
+      <DependentUpon>AddColours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\CameraSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\CameraSetup.Designer.cs">
+      <DependentUpon>CameraSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\frmCoordReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\frmCoordReference.Designer.cs">
+      <DependentUpon>frmCoordReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\Login_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\Login_page.designer.cs">
+      <DependentUpon>Login_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\Mark_Inspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\Mark_Inspection.designer.cs">
+      <DependentUpon>Mark_Inspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\PoseEnlargePreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\PoseEnlargePreview.Designer.cs">
+      <DependentUpon>PoseEnlargePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\ReportDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\ReportDetailsForm.Designer.cs">
+      <DependentUpon>ReportDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\ReportPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\ReportPage.designer.cs">
+      <DependentUpon>ReportPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ApiController.cs" />
+    <Compile Include="Classes\AppData.cs" />
+    <Compile Include="Classes\CsvExporter.cs" />
+    <Compile Include="Classes\Database.cs" />
+    <Compile Include="Classes\DetectionResult.cs" />
+    <Compile Include="Classes\DrawPbMmarkIns.cs" />
+    <Compile Include="Classes\DrawShapesOnpicBox.cs" />
+    <Compile Include="Classes\ExtensionMethods.cs" />
+    <Compile Include="Classes\GlobalItems.cs" />
+    <Compile Include="Classes\globalVars.cs" />
+    <Compile Include="Classes\HikCam.cs" />
+    <Compile Include="Classes\ImageAssembler.cs" />
+    <Compile Include="Classes\LabelData.cs" />
+    <Compile Include="Classes\pbClass.cs" />
+    <Compile Include="Classes\PlcControl.cs" />
+    <Compile Include="Classes\PoseData.cs" />
+    <Compile Include="Classes\systemThresholds.cs" />
+    <Compile Include="Classes\UserAuthentication.cs" />
+    <Compile Include="Classes\UserManager.cs" />
+    <Compile Include="CustomControl\PoseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\PoseControl.Designer.cs">
+      <DependentUpon>PoseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\PosePreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\PosePreview.Designer.cs">
+      <DependentUpon>PosePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\ReworkDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\ReworkDataControl.Designer.cs">
+      <DependentUpon>ReworkDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\UserControlToolAck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\UserControlToolAck.Designer.cs">
+      <DependentUpon>UserControlToolAck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\ZoomInOutPictureBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\ZoomInOutPictureBox.designer.cs">
+      <DependentUpon>ZoomInOutPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppForms\InspectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\InspectionForm.Designer.cs">
+      <DependentUpon>InspectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\applied_tools.cs" />
+    <Compile Include="IP_tools\resultFrontCam.cs" />
+    <Compile Include="IP_tools\tool.cs" />
+    <Compile Include="IP_tools\tool_BoundaryGap.cs" />
+    <Compile Include="IP_tools\tool_CROI.cs" />
+    <Compile Include="IP_tools\tool_DateCode_DOTS_OCR.cs" />
+    <Compile Include="IP_tools\tool_Fixture.cs" />
+    <Compile Include="IP_tools\tool_GrayPresence.cs" />
+    <Compile Include="IP_tools\tool_Group_printCheck.cs" />
+    <Compile Include="IP_tools\tool_helper.cs" />
+    <Compile Include="IP_tools\tool_Mask.cs" />
+    <Compile Include="IP_tools\tool_QR_code.cs" />
+    <Compile Include="IP_tools\tool_ROI.cs" />
+    <Compile Include="IP_tools\tool_WeekCode_DOTS.cs" />
+    <Compile Include="IP_tools\uc_BoundaryGap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_BoundaryGap.Designer.cs">
+      <DependentUpon>uc_BoundaryGap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_CROI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_CROI.Designer.cs">
+      <DependentUpon>uc_CROI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_DateCode_Dots_OCR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_DateCode_Dots_OCR.Designer.cs">
+      <DependentUpon>uc_DateCode_Dots_OCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_fixture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_fixture.Designer.cs">
+      <DependentUpon>uc_fixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_GrayPresence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_GrayPresence.Designer.cs">
+      <DependentUpon>uc_GrayPresence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_Group_printCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_Group_printCheck.Designer.cs">
+      <DependentUpon>uc_Group_printCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_Mask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_Mask.Designer.cs">
+      <DependentUpon>uc_Mask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_QR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_QR.Designer.cs">
+      <DependentUpon>uc_QR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_ROI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_ROI.Designer.cs">
+      <DependentUpon>uc_ROI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\uc_weekCode_DOTS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IP_tools\uc_weekCode_DOTS.Designer.cs">
+      <DependentUpon>uc_weekCode_DOTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IP_tools\userColours.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AppForms\AddColours.resx">
+      <DependentUpon>AddColours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\CameraSetup.resx">
+      <DependentUpon>CameraSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\frmCoordReference.resx">
+      <DependentUpon>frmCoordReference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\InspectionForm.resx">
+      <DependentUpon>InspectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\Login_page.resx">
+      <DependentUpon>Login_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\Mark_Inspection.resx">
+      <DependentUpon>Mark_Inspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\PoseEnlargePreview.resx">
+      <DependentUpon>PoseEnlargePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\ReportDetailsForm.resx">
+      <DependentUpon>ReportDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppForms\ReportPage.resx">
+      <DependentUpon>ReportPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\PoseControl.resx">
+      <DependentUpon>PoseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\PosePreview.resx">
+      <DependentUpon>PosePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\ReworkDataControl.resx">
+      <DependentUpon>ReworkDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\UserControlToolAck.resx">
+      <DependentUpon>UserControlToolAck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\ZoomInOutPictureBox.resx">
+      <DependentUpon>ZoomInOutPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_BoundaryGap.resx">
+      <DependentUpon>uc_BoundaryGap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_CROI.resx">
+      <DependentUpon>uc_CROI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_DateCode_Dots_OCR.resx">
+      <DependentUpon>uc_DateCode_Dots_OCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_fixture.resx">
+      <DependentUpon>uc_fixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_GrayPresence.resx">
+      <DependentUpon>uc_GrayPresence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_Group_printCheck.resx">
+      <DependentUpon>uc_Group_printCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_Mask.resx">
+      <DependentUpon>uc_Mask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_QR.resx">
+      <DependentUpon>uc_QR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_ROI.resx">
+      <DependentUpon>uc_ROI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP_tools\uc_weekCode_DOTS.resx">
+      <DependentUpon>uc_weekCode_DOTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\camGreen.png" />
+    <Content Include="Icons\camRed.png" />
+    <None Include="Resources\MindaLogo.jpg" />
+    <None Include="Icons\group.png" />
+    <Content Include="Icons\loadingGif.gif" />
+    <Content Include="Icons\plcGreen.png" />
+    <Content Include="Icons\plcRed.png" />
+    <None Include="Resources\AI-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Settings\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
