@@ -1,0 +1,90 @@
+[
+  {
+    "name": "BROWN",
+    "remark": "",
+    "H_low": -3,
+    "S_low": 106,
+    "V_low": 36,
+    "H_high": 13,
+    "S_high": 182,
+    "V_high": 77,
+    "id": 2
+  },
+  {
+    "name": "GREEN",
+    "remark": "",
+    "H_low": 72,
+    "S_low": 63,
+    "V_low": 39,
+    "H_high": 93,
+    "S_high": 124,
+    "V_high": 84,
+    "id": 3
+  },
+  {
+    "name": "BLUE",
+    "remark": "",
+    "H_low": 103,
+    "S_low": 173,
+    "V_low": 139,
+    "H_high": 117,
+    "S_high": 214,
+    "V_high": 259,
+    "id": 4
+  },
+  {
+    "name": "BROWN1",
+    "remark": "",
+    "H_low": -10,
+    "S_low": 67,
+    "V_low": 43,
+    "H_high": 18,
+    "S_high": 171,
+    "V_high": 165,
+    "id": 5
+  },
+  {
+    "name": "YELLOW1",
+    "remark": "",
+    "H_low": -10,
+    "S_low": -10,
+    "V_low": 109,
+    "H_high": 40,
+    "S_high": 193,
+    "V_high": 265,
+    "id": 6
+  },
+  {
+    "name": "GreenCap",
+    "remark": "",
+    "H_low": 41,
+    "S_low": 7,
+    "V_low": 122,
+    "H_high": 89,
+    "S_high": 59,
+    "V_high": 220,
+    "id": 7
+  },
+  {
+    "name": "white",
+    "remark": "",
+    "H_low": -6,
+    "S_low": -6,
+    "V_low": 236,
+    "H_high": 126,
+    "S_high": 23,
+    "V_high": 261,
+    "id": 8
+  },
+  {
+    "name": "Blue1",
+    "remark": "",
+    "H_low": 100,
+    "S_low": 103,
+    "V_low": 45,
+    "H_high": 125,
+    "S_high": 226,
+    "V_high": 241,
+    "id": 9
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250408190509",
+  "markConfigId": 20250408190509,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250408190509/glassTemplate_20250408190509.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250408190509/glassTemplate_20250408190509.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [
+    {
+      "ExpectedString": "",
+      "ResultString": "",
+      "Rect_roi": {
+        "X": 1132,
+        "Y": 982,
+        "Width": 548,
+        "Height": 628
+      },
+      "Name": "QR",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 2,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 2,
+        "list_points": [
+          {
+            "X": 1132,
+            "Y": 982
+          },
+          {
+            "X": 1679,
+            "Y": 1608
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250408190509/ROI_t_08_04_2025_07_15_16_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250408190509/ROI_t_08_04_2025_07_15_16_T2.bmp",
+      "MatchScoreThresh_T1": 50.0,
+      "MatchScoreThresh_T2": 50.0,
+      "RectRoi_T1": {
+        "X": 520,
+        "Y": 2138,
+        "Width": 540,
+        "Height": 224
+      },
+      "RectRoi_T2": {
+        "X": 1161,
+        "Y": 1439,
+        "Width": 432,
+        "Height": 212
+      },
+      "RectSearcRegion_T1": {
+        "X": 270,
+        "Y": 1765,
+        "Width": 1120,
+        "Height": 664
+      },
+      "RectSearcRegion_T2": {
+        "X": 979,
+        "Y": 1105,
+        "Width": 960,
+        "Height": 908
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 1083,
+        "Y": 1897
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 1,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 520,
+            "Y": 2138
+          },
+          {
+            "X": 1058,
+            "Y": 2359
+          },
+          {
+            "X": 1161,
+            "Y": 1439
+          },
+          {
+            "X": 1593,
+            "Y": 1650
+          },
+          {
+            "X": 270,
+            "Y": 1765
+          },
+          {
+            "X": 1387,
+            "Y": 2426
+          },
+          {
+            "X": 979,
+            "Y": 1105
+          },
+          {
+            "X": 1937,
+            "Y": 2011
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "lst_CROI_tool": [],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [],
+  "AppliedToolCnt": 2
+}

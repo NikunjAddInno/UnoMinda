@@ -1,0 +1,260 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031",
+  "markConfigId": 20250412174031,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/glassTemplate_20250412174031.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/glassTemplate_20250412174031.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/ROI_t_15_04_2025_01_27_10_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/ROI_t_15_04_2025_01_27_10_T2.bmp",
+      "MatchScoreThresh_T1": 50.0,
+      "MatchScoreThresh_T2": 40.0,
+      "RectRoi_T1": {
+        "X": 488,
+        "Y": 1176,
+        "Width": 256,
+        "Height": 324
+      },
+      "RectRoi_T2": {
+        "X": 1299,
+        "Y": 309,
+        "Width": 352,
+        "Height": 352
+      },
+      "RectSearcRegion_T1": {
+        "X": 328,
+        "Y": 1012,
+        "Width": 636,
+        "Height": 680
+      },
+      "RectSearcRegion_T2": {
+        "X": 1129,
+        "Y": 252,
+        "Width": 648,
+        "Height": 512
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 1045,
+        "Y": 911
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 3,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 488,
+            "Y": 1176
+          },
+          {
+            "X": 744,
+            "Y": 1500
+          },
+          {
+            "X": 1299,
+            "Y": 309
+          },
+          {
+            "X": 1650,
+            "Y": 658
+          },
+          {
+            "X": 328,
+            "Y": 1012
+          },
+          {
+            "X": 962,
+            "Y": 1691
+          },
+          {
+            "X": 1129,
+            "Y": 252
+          },
+          {
+            "X": 1775,
+            "Y": 761
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "lst_CROI_tool": [
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/ROI_t_12_04_2025_06_04_23.bmp",
+      "RotationLimit": 20.0,
+      "MathcScoreThresh": 50.0,
+      "Rect_roi": {
+        "X": 756,
+        "Y": 486,
+        "Width": 540,
+        "Height": 404
+      },
+      "SearchRegion": {
+        "X": 502,
+        "Y": 439,
+        "Width": 1256,
+        "Height": 744
+      },
+      "ShiftTolerance": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "Mode": 2,
+      "ColourId": 1.0,
+      "Threshold": 113,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "Name": "HEATSINK1",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 1,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 756,
+            "Y": 486
+          },
+          {
+            "X": 1296,
+            "Y": 887
+          },
+          {
+            "X": 502,
+            "Y": 439
+          },
+          {
+            "X": 1756,
+            "Y": 1183
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    },
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250412174031/ROI_t_12_04_2025_06_06_04.bmp",
+      "RotationLimit": 20.0,
+      "MathcScoreThresh": 50.0,
+      "Rect_roi": {
+        "X": 1528,
+        "Y": 756,
+        "Width": 280,
+        "Height": 812
+      },
+      "SearchRegion": {
+        "X": 1380,
+        "Y": 591,
+        "Width": 604,
+        "Height": 1164
+      },
+      "ShiftTolerance": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "Mode": 2,
+      "ColourId": 1.0,
+      "Threshold": 113,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "Name": "HEATSINK2",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 2,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 1528,
+            "Y": 756
+          },
+          {
+            "X": 1808,
+            "Y": 1566
+          },
+          {
+            "X": 1380,
+            "Y": 591
+          },
+          {
+            "X": 1982,
+            "Y": 1754
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [],
+  "AppliedToolCnt": 3
+}

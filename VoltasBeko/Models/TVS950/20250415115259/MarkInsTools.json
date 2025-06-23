@@ -1,0 +1,344 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115259",
+  "markConfigId": 20250415115259,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115259/glassTemplate_20250415115259.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115259/glassTemplate_20250415115259.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115259/ROI_t_08_04_2025_07_16_23_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115259/ROI_t_08_04_2025_07_16_23_T2.bmp",
+      "MatchScoreThresh_T1": 50.0,
+      "MatchScoreThresh_T2": 50.0,
+      "RectRoi_T1": {
+        "X": 1009,
+        "Y": 260,
+        "Width": 260,
+        "Height": 224
+      },
+      "RectRoi_T2": {
+        "X": 947,
+        "Y": 1959,
+        "Width": 156,
+        "Height": 192
+      },
+      "RectSearcRegion_T1": {
+        "X": 687,
+        "Y": 29,
+        "Width": 828,
+        "Height": 740
+      },
+      "RectSearcRegion_T2": {
+        "X": 771,
+        "Y": 1728,
+        "Width": 596,
+        "Height": 652
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 1082,
+        "Y": 1213
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 1,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 1009,
+            "Y": 260
+          },
+          {
+            "X": 1267,
+            "Y": 481
+          },
+          {
+            "X": 947,
+            "Y": 1959
+          },
+          {
+            "X": 1100,
+            "Y": 2148
+          },
+          {
+            "X": 687,
+            "Y": 29
+          },
+          {
+            "X": 1515,
+            "Y": 766
+          },
+          {
+            "X": 771,
+            "Y": 1728
+          },
+          {
+            "X": 1365,
+            "Y": 2377
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "lst_CROI_tool": [],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [
+    {
+      "Rect_roi": {
+        "X": 1414,
+        "Y": 1217,
+        "Width": 128,
+        "Height": 132
+      },
+      "Threshold": 42,
+      "ThresholdType": 1,
+      "MatchPercent": 20.0,
+      "ColourId": 0.0,
+      "Mode": 0,
+      "Name": "R29",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 9,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1414,
+            "Y": 1217
+          },
+          {
+            "X": 1539,
+            "Y": 1348
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    },
+    {
+      "Rect_roi": {
+        "X": 1377,
+        "Y": 704,
+        "Width": 248,
+        "Height": 192
+      },
+      "Threshold": 44,
+      "ThresholdType": 1,
+      "MatchPercent": 20.0,
+      "ColourId": 0.0,
+      "Mode": 0,
+      "Name": "R37",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 10,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1377,
+            "Y": 704
+          },
+          {
+            "X": 1625,
+            "Y": 893
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    },
+    {
+      "Rect_roi": {
+        "X": 1087,
+        "Y": 1490,
+        "Width": 200,
+        "Height": 176
+      },
+      "Threshold": 159,
+      "ThresholdType": 1,
+      "MatchPercent": 68.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "D10",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 11,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1087,
+            "Y": 1490
+          },
+          {
+            "X": 1286,
+            "Y": 1664
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    },
+    {
+      "Rect_roi": {
+        "X": 365,
+        "Y": 712,
+        "Width": 232,
+        "Height": 1040
+      },
+      "Threshold": 216,
+      "ThresholdType": 0,
+      "MatchPercent": 20.0,
+      "ColourId": 0.0,
+      "Mode": 0,
+      "Name": "W6",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 12,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 365,
+            "Y": 712
+          },
+          {
+            "X": 594,
+            "Y": 1750
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    },
+    {
+      "Rect_roi": {
+        "X": 996,
+        "Y": 640,
+        "Width": 332,
+        "Height": 796
+      },
+      "Threshold": 120,
+      "ThresholdType": 0,
+      "MatchPercent": 40.0,
+      "ColourId": 5.0,
+      "Mode": 2,
+      "Name": "C15",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 13,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 996,
+            "Y": 640
+          },
+          {
+            "X": 1328,
+            "Y": 1434
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      }
+    }
+  ],
+  "AppliedToolCnt": 6
+}

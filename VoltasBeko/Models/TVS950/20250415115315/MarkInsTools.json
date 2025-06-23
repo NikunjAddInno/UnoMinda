@@ -1,0 +1,221 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115315",
+  "markConfigId": 20250415115315,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115315/glassTemplate_20250415115315.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115315/glassTemplate_20250415115315.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115315/ROI_t_15_04_2025_12_04_11_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115315/ROI_t_15_04_2025_12_04_11_T2.bmp",
+      "MatchScoreThresh_T1": 50.0,
+      "MatchScoreThresh_T2": 50.0,
+      "RectRoi_T1": {
+        "X": 132,
+        "Y": 2111,
+        "Width": 352,
+        "Height": 256
+      },
+      "RectRoi_T2": {
+        "X": 1048,
+        "Y": 2187,
+        "Width": 356,
+        "Height": 156
+      },
+      "RectSearcRegion_T1": {
+        "X": 39,
+        "Y": 1726,
+        "Width": 692,
+        "Height": 688
+      },
+      "RectSearcRegion_T2": {
+        "X": 854,
+        "Y": 1925,
+        "Width": 788,
+        "Height": 492
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 767,
+        "Y": 2252
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 1,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 132,
+            "Y": 2111
+          },
+          {
+            "X": 483,
+            "Y": 2364
+          },
+          {
+            "X": 1048,
+            "Y": 2187
+          },
+          {
+            "X": 1402,
+            "Y": 2342
+          },
+          {
+            "X": 39,
+            "Y": 1726
+          },
+          {
+            "X": 729,
+            "Y": 2411
+          },
+          {
+            "X": 854,
+            "Y": 1925
+          },
+          {
+            "X": 1640,
+            "Y": 2416
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    }
+  ],
+  "lst_CROI_tool": [],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [
+    {
+      "Rect_roi": {
+        "X": 1058,
+        "Y": 611,
+        "Width": 460,
+        "Height": 416
+      },
+      "Threshold": 122,
+      "ThresholdType": 0,
+      "MatchPercent": 20.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "TRAN1",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 6,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1058,
+            "Y": 611
+          },
+          {
+            "X": 1517,
+            "Y": 1024
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "Rect_roi": {
+        "X": 115,
+        "Y": 488,
+        "Width": 244,
+        "Height": 504
+      },
+      "Threshold": 122,
+      "ThresholdType": 0,
+      "MatchPercent": 20.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "TRAN2",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 7,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 115,
+            "Y": 488
+          },
+          {
+            "X": 356,
+            "Y": 992
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    }
+  ],
+  "AppliedToolCnt": 3
+}

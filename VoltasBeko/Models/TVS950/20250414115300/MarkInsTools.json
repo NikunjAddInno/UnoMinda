@@ -1,0 +1,269 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300",
+  "markConfigId": 20250414115300,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/glassTemplate_20250414115300.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/glassTemplate_20250414115300.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/ROI_t_14_04_2025_12_45_06_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/ROI_t_14_04_2025_12_45_06_T2.bmp",
+      "MatchScoreThresh_T1": 50.0,
+      "MatchScoreThresh_T2": 50.0,
+      "RectRoi_T1": {
+        "X": 1203,
+        "Y": 211,
+        "Width": 332,
+        "Height": 692
+      },
+      "RectRoi_T2": {
+        "X": 1232,
+        "Y": 1515,
+        "Width": 388,
+        "Height": 820
+      },
+      "RectSearcRegion_T1": {
+        "X": 906,
+        "Y": 71,
+        "Width": 808,
+        "Height": 936
+      },
+      "RectSearcRegion_T2": {
+        "X": 1068,
+        "Y": 1242,
+        "Width": 848,
+        "Height": 1160
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 1397,
+        "Y": 1241
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 1,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 1203,
+            "Y": 211
+          },
+          {
+            "X": 1532,
+            "Y": 901
+          },
+          {
+            "X": 1232,
+            "Y": 1515
+          },
+          {
+            "X": 1618,
+            "Y": 2335
+          },
+          {
+            "X": 906,
+            "Y": 71
+          },
+          {
+            "X": 1711,
+            "Y": 1004
+          },
+          {
+            "X": 1068,
+            "Y": 1242
+          },
+          {
+            "X": 1915,
+            "Y": 2401
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    }
+  ],
+  "lst_CROI_tool": [
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/ROI_t_03_05_2025_02_29_36.bmp",
+      "RotationLimit": 30.0,
+      "MathcScoreThresh": 50.0,
+      "Rect_roi": {
+        "X": 812,
+        "Y": 233,
+        "Width": 396,
+        "Height": 324
+      },
+      "SearchRegion": {
+        "X": 677,
+        "Y": 115,
+        "Width": 668,
+        "Height": 572
+      },
+      "ShiftTolerance": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Mode": 2,
+      "ColourId": 2.0,
+      "Threshold": 143,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Name": "sleev1",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 2,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 812,
+            "Y": 233
+          },
+          {
+            "X": 1205,
+            "Y": 554
+          },
+          {
+            "X": 677,
+            "Y": 115
+          },
+          {
+            "X": 1343,
+            "Y": 687
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250414115300/ROI_t_03_05_2025_02_29_52.bmp",
+      "RotationLimit": 30.0,
+      "MathcScoreThresh": 50.0,
+      "Rect_roi": {
+        "X": 810,
+        "Y": 1917,
+        "Width": 396,
+        "Height": 324
+      },
+      "SearchRegion": {
+        "X": 675,
+        "Y": 1799,
+        "Width": 668,
+        "Height": 572
+      },
+      "ShiftTolerance": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Mode": 2,
+      "ColourId": 2.0,
+      "Threshold": 143,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Name": "sleev2",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 3,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 810,
+            "Y": 1917
+          },
+          {
+            "X": 1203,
+            "Y": 2238
+          },
+          {
+            "X": 675,
+            "Y": 1799
+          },
+          {
+            "X": 1341,
+            "Y": 2371
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    }
+  ],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [],
+  "AppliedToolCnt": 3
+}

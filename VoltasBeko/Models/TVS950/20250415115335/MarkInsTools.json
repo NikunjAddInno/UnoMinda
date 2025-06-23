@@ -1,0 +1,647 @@
+{
+  "markConfigname": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335",
+  "markConfigId": 20250415115335,
+  "subPCno": 1,
+  "fullROI": {
+    "X": 0,
+    "Y": 0,
+    "Width": 10,
+    "Height": 10
+  },
+  "roi_rotation": 0.0,
+  "roi_flipMode": 0,
+  "roi_fileName": "",
+  "glass_templateFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/glassTemplate_20250415115335.bmp",
+  "rotatedROIFileName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/glassTemplate_20250415115335.bmp",
+  "glassLocation": {
+    "X": -1,
+    "Y": -1,
+    "Width": 10,
+    "Height": 10
+  },
+  "logoShiftTolX": 0.0,
+  "logoShiftTolY": 0.0,
+  "lst_roiTools": [],
+  "lst_QR_tools": [],
+  "lst_Group_printCheck_tools": [],
+  "lst_Datecode_tools": [],
+  "lst_WeekCode_tools": [],
+  "lst_Mask_tools": [],
+  "lst_Fixture_tools": [
+    {
+      "Template_1_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_17_04_2025_01_48_52_T1.bmp",
+      "Template_2_Name": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_17_04_2025_01_48_52_T2.bmp",
+      "MatchScoreThresh_T1": 30.0,
+      "MatchScoreThresh_T2": 30.0,
+      "RectRoi_T1": {
+        "X": 41,
+        "Y": 780,
+        "Width": 180,
+        "Height": 304
+      },
+      "RectRoi_T2": {
+        "X": 17,
+        "Y": 1301,
+        "Width": 192,
+        "Height": 396
+      },
+      "RectSearcRegion_T1": {
+        "X": 17,
+        "Y": 444,
+        "Width": 292,
+        "Height": 860
+      },
+      "RectSearcRegion_T2": {
+        "X": 17,
+        "Y": 1161,
+        "Width": 344,
+        "Height": 840
+      },
+      "DistanceBw_T1_T2": 0.0,
+      "RotattionLimit_deg": 10.0,
+      "Name": "Fixture",
+      "CenterLoc": {
+        "X": 122,
+        "Y": 1215
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 16,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 6,
+        "list_points": [
+          {
+            "X": 41,
+            "Y": 780
+          },
+          {
+            "X": 221,
+            "Y": 1082
+          },
+          {
+            "X": 17,
+            "Y": 1301
+          },
+          {
+            "X": 206,
+            "Y": 1696
+          },
+          {
+            "X": 17,
+            "Y": 444
+          },
+          {
+            "X": 309,
+            "Y": 1303
+          },
+          {
+            "X": 17,
+            "Y": 1161
+          },
+          {
+            "X": 358,
+            "Y": 1998
+          }
+        ],
+        "pointCount": 8,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    }
+  ],
+  "lst_CROI_tool": [
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_02_05_2025_03_56_00.bmp",
+      "RotationLimit": 50.0,
+      "MathcScoreThresh": 40.0,
+      "Rect_roi": {
+        "X": 449,
+        "Y": 547,
+        "Width": 664,
+        "Height": 692
+      },
+      "SearchRegion": {
+        "X": 316,
+        "Y": 417,
+        "Width": 904,
+        "Height": 980
+      },
+      "ShiftTolerance": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Mode": 2,
+      "ColourId": 2.0,
+      "Threshold": 195,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Name": "C16",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 13,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 449,
+            "Y": 547
+          },
+          {
+            "X": 1112,
+            "Y": 1237
+          },
+          {
+            "X": 316,
+            "Y": 417
+          },
+          {
+            "X": 1220,
+            "Y": 1397
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_02_05_2025_03_56_33.bmp",
+      "RotationLimit": 50.0,
+      "MathcScoreThresh": 40.0,
+      "Rect_roi": {
+        "X": 378,
+        "Y": 1397,
+        "Width": 740,
+        "Height": 708
+      },
+      "SearchRegion": {
+        "X": 245,
+        "Y": 1301,
+        "Width": 956,
+        "Height": 916
+      },
+      "ShiftTolerance": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Mode": 2,
+      "ColourId": 2.0,
+      "Threshold": 195,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Name": "C18",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 14,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 378,
+            "Y": 1397
+          },
+          {
+            "X": 1117,
+            "Y": 2104
+          },
+          {
+            "X": 245,
+            "Y": 1301
+          },
+          {
+            "X": 1198,
+            "Y": 2217
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_02_05_2025_03_57_03.bmp",
+      "RotationLimit": 50.0,
+      "MathcScoreThresh": 40.0,
+      "Rect_roi": {
+        "X": 1217,
+        "Y": 410,
+        "Width": 752,
+        "Height": 768
+      },
+      "SearchRegion": {
+        "X": 1176,
+        "Y": 346,
+        "Width": 864,
+        "Height": 940
+      },
+      "ShiftTolerance": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Mode": 2,
+      "ColourId": 2.0,
+      "Threshold": 226,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 6.0,
+        "Y": 6.0
+      },
+      "Name": "C17",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 15,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 1217,
+            "Y": 410
+          },
+          {
+            "X": 1969,
+            "Y": 1178
+          },
+          {
+            "X": 1176,
+            "Y": 346
+          },
+          {
+            "X": 2040,
+            "Y": 1286
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "TemplateName": "D:\\Software\\CppNew\\Backup\\VoltasBeko/Models/TVS950\\20250415115335/ROI_t_03_05_2025_03_28_38.bmp",
+      "RotationLimit": 30.0,
+      "MathcScoreThresh": 50.0,
+      "Rect_roi": {
+        "X": 491,
+        "Y": 248,
+        "Width": 312,
+        "Height": 172
+      },
+      "SearchRegion": {
+        "X": 365,
+        "Y": 137,
+        "Width": 504,
+        "Height": 340
+      },
+      "ShiftTolerance": {
+        "X": 5.0,
+        "Y": 5.0
+      },
+      "Mode": 3,
+      "ColourId": 2.0,
+      "Threshold": 150,
+      "ThresholdType": 0,
+      "ShiftTolerance_neg": {
+        "X": 5.0,
+        "Y": 5.0
+      },
+      "Name": "R66",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 18,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 7,
+        "list_points": [
+          {
+            "X": 491,
+            "Y": 248
+          },
+          {
+            "X": 800,
+            "Y": 419
+          },
+          {
+            "X": 365,
+            "Y": 137
+          },
+          {
+            "X": 869,
+            "Y": 476
+          }
+        ],
+        "pointCount": 4,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 1,
+      "FixtureToolReference": -1,
+      "Fixture_mode": 0
+    }
+  ],
+  "lst_BoundaryGap_tools": [],
+  "lst_GrayPresence_tools": [
+    {
+      "Rect_roi": {
+        "X": 1674,
+        "Y": 1608,
+        "Width": 292,
+        "Height": 152
+      },
+      "Threshold": 95,
+      "ThresholdType": 0,
+      "MatchPercent": 10.0,
+      "ColourId": 0.0,
+      "Mode": 0,
+      "Name": "TRANS",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 7,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1674,
+            "Y": 1608
+          },
+          {
+            "X": 1966,
+            "Y": 1760
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "Rect_roi": {
+        "X": 636,
+        "Y": 487,
+        "Width": 104,
+        "Height": 84
+      },
+      "Threshold": 85,
+      "ThresholdType": 0,
+      "MatchPercent": 50.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "P-C16",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 9,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 636,
+            "Y": 487
+          },
+          {
+            "X": 739,
+            "Y": 568
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 3,
+      "FixtureToolReference": 13,
+      "Fixture_mode": 1
+    },
+    {
+      "Rect_roi": {
+        "X": 1505,
+        "Y": 1102,
+        "Width": 204,
+        "Height": 84
+      },
+      "Threshold": 86,
+      "ThresholdType": 0,
+      "MatchPercent": 30.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "P-C17",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 10,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1505,
+            "Y": 1102
+          },
+          {
+            "X": 1709,
+            "Y": 1183
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 3,
+      "FixtureToolReference": 15,
+      "Fixture_mode": 1
+    },
+    {
+      "Rect_roi": {
+        "X": 255,
+        "Y": 2252,
+        "Width": 56,
+        "Height": 72
+      },
+      "Threshold": 89,
+      "ThresholdType": 0,
+      "MatchPercent": 25.0,
+      "ColourId": 2.0,
+      "Mode": 1,
+      "Name": "P-C47",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 12,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 255,
+            "Y": 2252
+          },
+          {
+            "X": 309,
+            "Y": 2321
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 0,
+      "FixtureToolReference": 0,
+      "Fixture_mode": 0
+    },
+    {
+      "Rect_roi": {
+        "X": 1051,
+        "Y": 1689,
+        "Width": 84,
+        "Height": 136
+      },
+      "Threshold": 90,
+      "ThresholdType": 0,
+      "MatchPercent": 30.0,
+      "ColourId": 2.0,
+      "Mode": 0,
+      "Name": "P-C18",
+      "CenterLoc": {
+        "X": 0,
+        "Y": 0
+      },
+      "Index": 0,
+      "LocationDetected": {
+        "X": 0,
+        "Y": 0
+      },
+      "Tool_result": false,
+      "Id": 17,
+      "Tool_type": 5,
+      "Obj_toolShape": {
+        "idx": 0,
+        "name": null,
+        "shape": 9,
+        "list_points": [
+          {
+            "X": 1051,
+            "Y": 1689
+          },
+          {
+            "X": 1134,
+            "Y": 1824
+          }
+        ],
+        "pointCount": 2,
+        "pointsAvailable": true,
+        "dataSaved": false
+      },
+      "FixtureType": 3,
+      "FixtureToolReference": 14,
+      "Fixture_mode": 1
+    }
+  ],
+  "AppliedToolCnt": 10
+}
